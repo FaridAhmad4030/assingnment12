@@ -34,12 +34,12 @@ const student = {
 };
 student.showGrade();
 
-//Example-6
-function isPositive(number){
-    return number > 0;
-}
-const Result = isPositive(-3);
-console.log(Result);
+// Example-6
+// function isPositive(number){
+//     return number > 0;
+// }
+// const Result = isPositive(-3);
+// console.log(Result);
 
 //Example-7
 const colors = ['Red', 'Green','Blue','Yellow','black'];
@@ -51,3 +51,10 @@ const phone = {
      model: 'iphone 14'
 };
 console.log(phone.brand);
+
+//Example-9
+function squareNumber(x){
+    return x * x;
+}
+const Result = squareNumber(4);
+console.log(Result);

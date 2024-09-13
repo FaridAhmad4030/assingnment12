@@ -40,3 +40,7 @@ function isPositive(number){
 }
 const Result = isPositive(-3);
 console.log(Result);
+
+//Example-7
+const colors = ['Red', 'Green','Blue','Yellow','black'];
+console.log(colors.length);

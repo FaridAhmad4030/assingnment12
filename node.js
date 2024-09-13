@@ -44,3 +44,10 @@ console.log(Result);
 //Example-7
 const colors = ['Red', 'Green','Blue','Yellow','black'];
 console.log(colors.length);
+
+//Example-8
+const phone = {
+     brand: 'Apple',
+     model: 'iphone 14'
+};
+console.log(phone.brand);

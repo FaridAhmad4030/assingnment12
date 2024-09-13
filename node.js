@@ -22,3 +22,14 @@ function doubleNumber(x){
 }
 const result = doubleNumber(5);
 console.log(result);
+
+//Example-5
+const student = {
+    name: "John Doe",
+    grade: "A",
+
+    showGrade: function(){
+        console.log(`${this.name}  Grade: ${this.grade}`);
+    }
+};
+student.showGrade();

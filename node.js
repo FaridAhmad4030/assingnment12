@@ -33,3 +33,10 @@ const student = {
     }
 };
 student.showGrade();
+
+//Example-6
+function isPositive(number){
+    return number > 0;
+}
+const Result = isPositive(-3);
+console.log(Result);

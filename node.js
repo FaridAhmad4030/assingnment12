@@ -58,3 +58,11 @@ function squareNumber(x){
 }
 const Result = squareNumber(4);
 console.log(Result);
+
+//Example-10
+const numbers =[1,2,3,4,5];
+function sumArray(arr){
+    return arr.reduce((accumulator, currentValue)=>accumulator+currentValue,0);
+}
+const total = sumArray(numbers);
+console.log(total);

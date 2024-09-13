@@ -11,3 +11,7 @@ const dog = {
 };
 console.log( `Name: ${dog.name}`);
 console.log( `Breed: ${dog.breed}`);
+
+//Example-3
+const fruits = ['Apple', 'Banana','cherry'];
+console.log(fruits[0]);
